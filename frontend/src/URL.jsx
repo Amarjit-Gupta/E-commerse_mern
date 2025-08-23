@@ -1,1 +1,1 @@
-export const URL ="http://localhost:5000/data";
+export const URL ="https://ecommerce-backend-c7wa.onrender.com";
