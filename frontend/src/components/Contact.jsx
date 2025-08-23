@@ -53,7 +53,7 @@ const Contact = ({ menu, setMenu }) => {
 
 
     return (
-        <>
+        <div className={`main-contact ${menu ? "show-main-contact" : ""}`}>
             <Toaster />
             <div className={`contact-form ${menu ? "show" : ""}`}>
                 <button className="hide" onClick={() => setMenu(false)}><RxCross2 /></button>
@@ -79,7 +79,7 @@ const Contact = ({ menu, setMenu }) => {
                     </div>
                 </form>
             </div>
-        </>
+        </div>
     );
 }
 
