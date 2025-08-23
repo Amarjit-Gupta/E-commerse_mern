@@ -205,7 +205,7 @@ html {
 
 .scroll {
   height: 45rem;
-  border: rgb(192, 192, 192) solid 0.1rem;
+  border:green solid 0.3rem;
   overflow: auto;
   width: 75rem;
   margin: auto;
@@ -250,7 +250,7 @@ html {
 
 .total-price-box-child1 {
   height: 4rem;
-  width: 19rem;
+  width: 20rem;
   font-size: 2rem;
   display: flex;
   justify-content: space-between;
