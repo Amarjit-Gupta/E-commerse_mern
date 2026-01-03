@@ -9,9 +9,15 @@ app.use(express.json());
 app.use(cors());
 
 
-app.get("/", (req, res) => {
+app.get("/time", (req, res) => {
   res.json({
     serverTime: Date.now()
+  });
+});
+
+app.get("/test", (req, res) => {
+  res.json({
+   message:"API Working"
   });
 });
 
