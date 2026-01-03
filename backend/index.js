@@ -8,6 +8,13 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+
+app.get("/", (req, res) => {
+  res.json({
+    serverTime: Date.now()
+  });
+});
+
 app.post("/", async (req, res) => {
   try {
     let result = new Data(req.body);
